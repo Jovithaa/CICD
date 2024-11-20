@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Mythreyaa/CI-CD.git'
+                git branch: 'main', url: 'https://github.com/Jovithaa/CICD.git'
             }
         }
         stage('Install Dependencies') {
